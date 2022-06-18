@@ -1,0 +1,83 @@
+.user-screen {
+  background: url(../img/user_bg.png) no-repeat center;
+  background-size: cover;
+  height: 900px;
+  padding: 10px;
+}
+
+.user-panel {
+  background-color: black;
+  /* width: 30%; */
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: aquamarine;
+  padding: 8px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.5), 0 20px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-form-input {
+  width: 90%;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgray;
+  color: black;
+}
+
+.user-panel h3 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+.submit-btn {
+  width: 40%;
+  margin: 15px auto 5px auto;
+  background-color: darkblue;
+  color: aqua;
+  align-self: center;
+  border-radius: 4px;
+  border: none;
+  padding: 4px;
+}
+
+.submit-btn:hover {
+  background-color: darkslateblue;
+}
+
+.form-item {
+  display: flex;
+  width: 60%;
+  padding: 3px;
+  border: 1px groove aqua;
+  border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-item span {
+  cursor: pointer;
+  width: 10%;
+  float: left;
+  margin: 4px;
+}
+
+.sign-in-btn
+{
+  background: transparent;
+  border: 1px aqua solid;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 4px;
+  margin: 3px;
+  color: aqua;
+  transition: 0.2s ease-in-out ;
+}
+
+.sign-in-btn:hover
+{
+  transform: scale(1.03);
+}

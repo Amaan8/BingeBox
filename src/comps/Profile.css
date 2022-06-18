@@ -1,0 +1,77 @@
+.profile-panel
+{
+    padding: 5px;
+    margin: 80px auto 100px 25%;
+    width: 50%;
+    background:rgb(39, 51, 51);
+    color: aqua;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.profile-panel::-webkit-scrollbar
+{
+    display: none;
+}
+
+.profile-btn
+{
+    background-color: aqua;
+    width: 180px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.profile-btn:hover
+{
+    background-color: rgb(65, 155, 155);
+    color: black;
+}
+
+.profile-info
+{
+    color:aqua;
+    background:darkslategray;
+    width: 90%;
+    text-align: center;
+    margin: 6px auto 6px auto;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.profile-img
+{
+    background: url(../img/user_empty.png) no-repeat center;
+    background-size: cover;
+    margin-left: 35%;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    width: 200px;
+    height: 230px;
+}
+
+.profile-frnd-panel
+{
+    background-color: darkslategrey;
+    margin: 20px auto 10px auto;
+    font-weight: bold;
+    padding: 8px
+}
+
+.profile-frnd-item
+{
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 6px;
+    display: flex;
+    padding: 4px;
+    margin: 6px auto 6px auto;
+    justify-content: space-between;
+}

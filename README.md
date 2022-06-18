@@ -1,0 +1,2 @@
+# BingeBox
+Entertainment web portal

@@ -1,0 +1,135 @@
+.review-panel {
+    padding: 5px;
+    margin: 10px;
+    width: max-content;
+    background: rgb(39, 51, 51);
+    color: aqua;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  .review-panel-display {
+    padding: 5px;
+    margin: 10px;
+    width: 98%;
+    background: rgb(39, 51, 51);
+    color: aqua;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+.review-panel-display::-webkit-scrollbar{
+  display: none;
+}
+  .review-content {
+    display: flex;
+    padding: 5px;
+  }
+  .review-options {
+    padding: 4px;
+    margin: 6px;
+  }
+  .review-rate {
+    margin: 5px;
+    padding: 3px;
+    width: 50px;
+    border-radius: 6px;
+    border: 1px solid aqua;
+    background: transparent;
+    color: aqua;
+  }
+  .review-rate:focus {
+    background: transparent;
+    color: aqua;
+  }
+  
+  .review-input {
+    margin: 5px;
+    padding: 3px;
+    border-radius: 6px;
+    border: 1px solid aqua;
+    background: transparent;
+    color: aqua;
+    width: 400px;
+    height: 200px;
+  }
+  
+  .review-input:focus {
+    background: transparent;
+    color: aqua;
+  }
+  .review-panel::-webkit-scrollbar {
+    display: none;
+  }
+  .review-panel-display::-webkit-scrollbar {
+    display: none;
+  }
+  .review-heading {
+    color: aqua;
+    margin: 80px 6px 6px 6px;
+  }
+  
+  .review-btn {
+    background-color: aqua;
+    width: 80px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px 5px 5px 15px;
+    font-size: 18px;
+  }
+  
+  .review-btn:hover {
+    background-color: rgb(65, 155, 155);
+    color: black;
+  }
+  
+  .review-poster {
+    object-fit: contain;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .review-display-item {
+    background: rgb(0, 0, 0, 0.7);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+    padding: 4px;
+    margin: 8px 0px 8px 20px;
+    border-radius: 6px;
+    display: flex;
+    transition: 0.5s ease-in-out;
+    animation: appear 0.5s ease-in;
+  }
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .review-info {
+    padding: 3px;
+    margin: 4px;
+    color: aqua;
+  }
+  
+  .review-item-heading {
+    margin-left: 0%;
+  }
+  
+  .review-info-item {
+    border-bottom: 1px solid aqua;
+    padding: 5px;
+    margin: 5px;
+  }

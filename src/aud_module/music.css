@@ -1,0 +1,34 @@
+.container-music{
+    min-height: 90vh;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    border-radius: 12px;
+    padding: 34px;
+}
+
+.songList {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.songList h1 {
+    margin: 70px auto 30px;
+    color: black;
+    background-color: aqua;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px slid purple;
+    height: max-content;
+}

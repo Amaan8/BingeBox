@@ -1,0 +1,165 @@
+.frnd-main-panel
+{
+    margin: 8px auto 65% auto;
+    padding: 4px;
+}
+.frnd-list-panel
+{
+    float: left;
+    width: 26%;
+    min-width: 20%;
+    height: 700px;
+    background-color: black;
+    color: aqua;
+    margin: 8px 8px 8px 0px;
+    border-right: 1px aqua solid;
+    border-radius: 2px;
+    padding: 4px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.frnd-list-panel::-webkit-scrollbar
+{
+    display: none;
+}
+
+.frnd-list-item
+{
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 3px;
+    margin: 6px;
+    background-color: rgb(29, 27, 27);
+    border-radius: 6px;
+}
+.frnd-btn
+{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 4px;
+}
+
+.frnd-btn:hover{
+    background-color: rgb(98, 165, 165);
+}
+
+.frnd-chat-panel
+{
+    padding: 5px;
+    margin: 10px 2% 2% 2%;
+    width: 98%;
+    height: 60%;
+    max-height: 65%;
+    position: relative;
+    background: rgb(39, 51, 51);
+    color: aqua;
+    border-radius: 6px;
+  }
+
+.frnd-chat-input
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    margin:8px auto 4px auto;
+    position: absolute bottom;
+    z-index: 1;
+}
+
+.chat-input
+{
+    background: transparent;
+    width: 95%;
+    border-radius: 6px;
+    border: 1px solid aqua;
+    margin: 3px;
+    color: aqua;    
+}
+
+.chat-input:focus
+{
+    border: 2px solid aqua;
+}
+
+.chat-input::-webkit-scrollbar
+{
+    display: none;
+}
+
+.frnd-chat-container
+{
+    max-height: 500px;
+    width: 100%;
+    margin: 3px;
+    padding: 3px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.frnd-chat-container::-webkit-scrollbar
+{
+    display: none;
+}
+
+.frnd-chat-item
+{
+    color: aqua;
+    
+    background-color: rgb(39, 38, 45);
+    margin: 14px 40% 14px 5px;
+    padding: 5px;
+    
+    width: 60%;
+    height: max-content;
+    border-radius: 12px;
+}
+
+.frnd-chat-item-alt
+{
+    color: aqua;
+    background-color: black;
+    opacity: 0.6;
+    margin: 14px 4px 14px 4px;
+    padding: 5px;
+    width: 60%;
+    height: max-content;
+    border-radius: 12px;
+}
+
+.chat-bubble {
+    display: block;
+}
+.chat-bubble::after
+{
+    content: "\A";
+    white-space: pre;    
+}
+
+.recom-display-item
+{
+    width:100%;
+    height: 300px;
+    padding: 4px;
+    margin: 8px 0px 8px 20px;
+    border-radius: 6px;
+    display: flex;
+    transition: 0.5s ease-in-out;
+}
+
+.msg-misc-details
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: bisque;
+    margin-top: 6px;
+}
